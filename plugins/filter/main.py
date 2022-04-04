@@ -356,8 +356,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('👨‍💻 Developer', url=f'{DEV_CHANNEL}'),
-                        InlineKeyboardButton('Channel 📢', url=f'https://t.me/TGBotsProJect')
+                        InlineKeyboardButton('👨‍💻 Developer', url=f'https://t.me/Oxyver_Owner'),
+                        InlineKeyboardButton('Channel 📢', url=f'https://t.me/Oxyver_hindi_movies')
                     ]
                     ]
                 
