@@ -46,9 +46,9 @@ HELP = """
 ABOUT = """
 **About Bot 🤖**
 
-**▷🤖 Name: [auto-filter-bot-v3](https://github.com/zautekm/auto-filter-bot-v3).
+**▷🤖 Name: [Movie Request](https://t.me/Movierequest56_bot).
     
-▷👨‍💻 Creator : [Zaute Km](https://t.me/ZauteKm)
+▷👨‍💻 Creator : [꧁𒆜🅻🆄🅲🅺🆈𒆜꧂](https://t.me/Oxyver_Owner)
 
 ▷🌏 Language : Python3
 
