@@ -100,10 +100,10 @@ async def start(bot, message):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Bots', url='https://t.me/BotzListBot')
+                        InlineKeyboardButton('More Bots', url='https://t.me/Oxyver_Support_Channel/59')
                     ],
                     [
-                        InlineKeyboardButton('👨‍💻 Developer @ZauteKm 📢', url=f'{DEV_CHANNEL}')
+                        InlineKeyboardButton('👨‍💻 Developer ꧁𒆜🅻🆄🅲🅺🆈𒆜꧂ 📢', url=f'https://t.me/Oxyver_Owner')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -140,7 +140,7 @@ async def start(bot, message):
                 InlineKeyboardButton("🖲️ Commands", callback_data="help"),
                 InlineKeyboardButton("About Bot 🧑‍🔧", callback_data="about")
                 ],[
-                InlineKeyboardButton("🤖 More Bots @BotzListBot 🤖", url="https://t.me/BotzListBot")
+                InlineKeyboardButton("🤖 More Bots 🤖", url="https://t.me/Oxyver_Support_Channel/59")
                 ]]
             )
         )
@@ -353,8 +353,8 @@ async def bot_info(bot, message):
     buttons = [
         [
             
-            InlineKeyboardButton('👨‍💻 Developer', url=f'{DEV_CHANNEL}'),
-            InlineKeyboardButton('Channel 📢', url=f'https://t.me/TGBotsProJect')
+            InlineKeyboardButton('👨‍💻 Developer', url=f'https://t.me/Oxyver_Owner'),
+            InlineKeyboardButton('Channel 📢', url=f'https://t.me/Oxyver_hindi_movies')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
