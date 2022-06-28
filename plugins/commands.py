@@ -100,7 +100,7 @@ async def start(bot, message):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Bots', url='https://t.me/Oxyver_Support_Channel/59')
+                        InlineKeyboardButton('More Bots', url='https://t.me/Oxyver')
                     ],
                     [
                         InlineKeyboardButton('👨‍💻 Developer ꧁𒆜🅻🆄🅲🅺🆈𒆜꧂ 📢', url=f'https://t.me/Oxyver_Owner')
@@ -140,7 +140,7 @@ async def start(bot, message):
                 InlineKeyboardButton("🖲️ Commands", callback_data="help"),
                 InlineKeyboardButton("About Bot 🧑‍🔧", callback_data="about")
                 ],[
-                InlineKeyboardButton("🤖 More Bots 🤖", url="https://t.me/Oxyver_Support_Channel/59")
+                InlineKeyboardButton("🤖 More Bots 🤖", url="https://t.me/Oxyver")
                 ]]
             )
         )
@@ -354,7 +354,7 @@ async def bot_info(bot, message):
         [
             
             InlineKeyboardButton('👨‍💻 Developer', url=f'https://t.me/Oxyver_Owner'),
-            InlineKeyboardButton('Channel 📢', url=f'https://t.me/Oxyver_hindi_movies')
+            InlineKeyboardButton('Channel 📢', url=f'https://t.me/B4U_movies_in_hindi')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
