@@ -321,7 +321,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         print(e)
                         f_caption=f_caption
                 if f_caption is None:
-                    f_caption = f"{files.file_name}"
+                    f_caption = f"`{files.file_name}`"
                 buttons = [
                     [
                         InlineKeyboardButton('👨‍💻 Developer', url=f'https://t.me/Oxyver_Owner'),
@@ -353,7 +353,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         print(e)
                         f_caption=f_caption
                 if f_caption is None:
-                    f_caption = f"{title}"
+                    f_caption = f"`{title}`"
                 buttons = [
                     [
                         InlineKeyboardButton('👨‍💻 Developer', url=f'https://t.me/Oxyver_Owner'),
