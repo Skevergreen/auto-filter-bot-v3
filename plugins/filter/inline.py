@@ -60,7 +60,7 @@ async def answer(bot, query):
                 f_caption=CUSTOM_FILE_CAPTION.format(file_name=title, file_size=size, file_caption=f_caption)
             except Exception as e:
                 print(e)
-                f_caption=f_caption
+                f_caption = f"<b> Hey Everyone ...!!\n Come and Join Our Request Group\n @Enox_Movie_Request_Group </b><br>\n📁 Name ➜`{files.file_name}`"  
         if f_caption is None:
             f_caption = f"`{file.file_name}`"
         results.append(
