@@ -94,7 +94,7 @@ async def start(bot, message):
                         f_caption=CUSTOM_FILE_CAPTION.format(file_name=title, file_size=size, file_caption=f_caption)
                     except Exception as e:
                         print(e)
-                        f_caption = f"`{files.file_name}`"
+                        f_caption = f"<b> Hey Everyone ...!!\n Come and Join Our Request Group\n @Enox_Movie_Request_Group </b><br>`{files.file_name}`"
                 if f_caption is None:
                     f_caption = f"{files.file_name}"
                 buttons = [
